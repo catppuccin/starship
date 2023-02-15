@@ -1,3 +1,4 @@
+# Sets a user-defined color palette to be used
 palette = "catppuccin_macchiato"
 
 [character]
