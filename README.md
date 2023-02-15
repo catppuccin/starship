@@ -162,7 +162,7 @@ crust = "#11111b"
 3. Paste your palette(s)
 4. Set your `palette` value, save and quit!
 
-Check out [this example](starship.toml) to see a palette in use
+Check out this [example starship.toml](starship.toml) for how to define and use custom palettes
 
 ## 💝 Thanks to
 
