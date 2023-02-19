@@ -64,6 +64,7 @@ Check out this [example starship.toml](starship.toml) for how to define and use 
 ## 💝 Thanks to
 
 - [bexli](https://github.com/joshpaulie)
+- [Stonks3141](https://github.com/Stonks3141)
 
 &nbsp;
 
