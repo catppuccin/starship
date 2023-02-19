@@ -27,7 +27,39 @@
 3. Paste your palette(s) in
 4. Set your `palette = "catppuccin_flavor"` value, save and quit!
 
-Check out this [example starship.toml](starship.toml) for how to define and use custom palettes
+Check out this [example starship.toml](starship.toml) for how to define and use custom palettes.
+
+### With [Home Manager](https://github.com/nix-community/home-manager)
+
+1. Add this snippet to your home-manager configuration.
+
+```nix
+{ pkgs, ... }: {
+  programs.starship =
+    let
+      flavour = ""; # One of `latte`, `frappe`, `macchiato`, or `mocha`
+    in
+    {
+      enable = true;
+      settings = {
+        # Other config here
+        format = "$all"; # Remove this line to disable the default prompt format
+        palette = "catppuccin_${flavour}";
+      } // builtins.fromTOML (builtins.readFile
+        (pkgs.fetchFromGitHub
+          {
+            owner = "catppuccin";
+            repo = "starship";
+            rev = ""; # Replace with the latest commit hash
+            sha256 = "";
+          } + /palettes/${flavour}.toml));
+    };
+}
+```
+
+2. Rebuild your configuration. There should be an error about the invalid checksum.
+3. Paste the sha256 checksum from the error message into the `sha256` field.
+4. Rebuild again.
 
 ## 💝 Thanks to
 
