@@ -18,6 +18,7 @@
 ## Usage
 
 1. Copy your desired palette(s) from `palettes/` 🗂️
+1. Copy your desired palette(s) from `palettes` 🗂️
    - 🌻 [Latte](palettes/latte.toml)
    - 🪴 [Frappé](palettes/frappe.toml)
    - 🌺 [Macchiato](palettes/macchiato.toml)
