@@ -25,7 +25,7 @@
 2. Find (or create) your `starship.toml` to paste into
    - Typically at `~/.config/starship.toml`
 3. Paste your palette(s)
-   - Note that palette tables should be group together towards at the bottom
+   - Note that palette tables should be grouped together at the bottom of your config
 4. Set your `palette = "catppuccin_flavor"` value, save and quit!
 
 Check out this [example starship.toml](starship.toml) for how to define and use custom palettes
