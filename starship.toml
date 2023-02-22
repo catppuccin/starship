@@ -1,16 +1,16 @@
-# Sets a user-defined color palette to be used
+# Sets user-defined palette
 palette = "catppuccin_macchiato"
 
 [character]
-success_symbol = "[❯](blue)"
-# Note the use of the Catppuccin color 'Flamingo'
-error_symbol = "[❯](flamingo)"
+# Note the use of Catppuccin color 'maroon'
+success_symbol = "[[♥](green) ❯](maroon)"
+error_symbol = "[❯](red)"
 vicmd_symbol = "[❮](green)"
 
 [directory]
 truncation_length = 4
-# Catppuccin 'Peach'
-style = "bold peach"
+# Catppuccin 'lavender'
+style = "bold lavender"
 
 [palettes.catppuccin_macchiato]
 rosewater = "#f4dbd6"
