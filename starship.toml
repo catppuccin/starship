@@ -5,7 +5,7 @@ palette = "catppuccin_macchiato"
 # Note the use of Catppuccin color 'maroon'
 success_symbol = "[[♥](green) ❯](maroon)"
 error_symbol = "[❯](red)"
-vicmd_symbol = "[❮](green)"
+vimcmd_symbol = "[❮](green)"
 
 [directory]
 truncation_length = 4
