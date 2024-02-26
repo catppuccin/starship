@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="assets/preview.webp"/>
+	<img src="assets/preview.png"/>
 </p>
 
 ## Usage
@@ -28,7 +28,14 @@
    - Note that palette tables should be grouped together at the bottom of your config
 4. Set your `palette = "catppuccin_flavor"` value, save and quit!
 
-Check out this [example starship.toml](starship.toml) for how to define and use custom palettes
+Check out this [example starship.toml](starship.toml) for how to define and use custom palettes. This example defaults to the Mocha flavour, but you can easilly select your desired palette by changing the `palette` value to one of:
+
+- `catppuccin_latte`
+- `catppuccin_frappe`
+- `catppuccin_macchiato`
+- `catppuccin_mocha`
+
+Note that you will need to install a [Nerd font](https://www.nerdfonts.com/) and configure your terminal to use it for the icons to show correctly.
 
 ### With [Home Manager](https://github.com/nix-community/home-manager)
 
