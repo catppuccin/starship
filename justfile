@@ -2,4 +2,5 @@ _default:
   @just --list
 
 build:
-  whiskers starship.tera
+  whiskers templates/starship.tera
+  whiskers templates/example.tera
