@@ -1,0 +1,25 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "starship.toml"
+---
+# Sets user-defined palette
+palette = "catppuccin_macchiato"
+
+[character]
+# Note the use of Catppuccin color 'maroon'
+success_symbol = "[[♥](green) ❯](maroon)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](green)"
+
+[directory]
+truncation_length = 4
+# Catppuccin 'lavender'
+style = "bold lavender"
+
+# palette tables should be last in the config ⚓️
+{%- for _, flavor in flavors %}
+{{ read_file(path="../palettes/" ~ flavor.identifier ~ ".toml") }}
+{%- endfor %}

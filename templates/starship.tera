@@ -1,0 +1,14 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "palettes/{{ flavor.identifier }}.toml"
+---
+
+{%- set palette = flavor.colors -%}
+
+[palettes.catppuccin_{{ flavor.identifier }}]
+{%- for _, color in palette %}
+{{ color.identifier }} = "#{{ color.hex }}"
+{%- endfor %}
