@@ -3,7 +3,7 @@ whiskers:
   version: "2.3.0"
   matrix:
     - flavor
-  filename: "palettes/{{ flavor.identifier }}.toml"
+  filename: "themes/{{ flavor.identifier }}.toml"
 ---
 
 {%- set palette = flavor.colors -%}

@@ -17,7 +17,7 @@
 
 ## Usage
 
-1. Copy the contents of the flavor of your choice from [`palettes/`](./palettes/) **to the bottom** of your [Starship configuration file](https://starship.rs/config/) (typically `~/.config/starship.toml`).
+1. Copy the contents of the flavor of your choice from [`themes/`](./themes/) **to the bottom** of your [Starship configuration file](https://starship.rs/config/) (typically `~/.config/starship.toml`).
 2. Set `palette = "catppuccin_<flavor>"`.
 3. Save and reload your prompt.
 
