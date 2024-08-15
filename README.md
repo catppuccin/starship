@@ -26,8 +26,9 @@
 
 ## 💝 Thanks to
 
-- [bexli](https://github.com/joshpaulie)
-- [Stonks3141](https://github.com/Stonks3141)
+- [bexli](https://github.com/joshpaulie) ("Maintainer")
+- [uncenter](https://github.com/uncenter) (Catppuccin Whiskers Compatibility)
+- [Stonks3141](https://github.com/Stonks3141) (NixOS support)
 
 &nbsp;
 
