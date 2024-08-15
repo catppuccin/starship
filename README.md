@@ -30,6 +30,13 @@
 - [uncenter](https://github.com/uncenter) (Catppuccin Whiskers Compatibility)
 - [Stonks3141](https://github.com/Stonks3141) (NixOS support)
 
+## Contributing
+Requires [Whiskers](https://github.com/catppuccin/whiskers) & [Just](https://github.com/casey/just) be installed
+
+1. Make changes to `templates/` file(s)
+2. Run `just build`
+3. Commit changes to branch, make PR
+
 &nbsp;
 
 <p align="center">
