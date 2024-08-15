@@ -19,7 +19,6 @@ truncation_length = 4
 # Catppuccin 'lavender'
 style = "bold lavender"
 
-# palette tables should be last in the config ⚓️
 {%- for _, flavor in flavors %}
 {{ read_file(path="../themes/" ~ flavor.identifier ~ ".toml") }}
 {%- endfor %}
