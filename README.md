@@ -37,6 +37,11 @@ Requires [Whiskers](https://github.com/catppuccin/whiskers) & [Just](https://git
 2. Run `just build`
 3. Commit changes to branch, make PR
 
+Changes to prompt appearance require new [catwalk](https://github.com/catppuccin/catwalk) image.
+
+> [!TIP]
+> When making changes to the prompt, simply run `export STARSHIP_CONFIG="../../starship/starship.toml"` in your terminal for testing. Use an absolute path. This way, you don't have to worry about moving or replacing your personal starship.toml.
+
 &nbsp;
 
 <p align="center">
