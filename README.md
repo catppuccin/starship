@@ -17,8 +17,8 @@
 
 ## Usage
 
-1. Copy the contents of the flavor of your choice from [`themes/`](./themes/) **to the bottom** of your [Starship configuration file](https://starship.rs/config/) (typically `~/.config/starship.toml`).
-2. Set `palette = "catppuccin_<flavor>"`.
+1. Copy one or all of the flavor palettes from [`themes/`](./themes/) to your [Starship configuration file](https://starship.rs/config/).
+2. Set `palette = "catppuccin_<flavor>"`, preferably at the top of your config. Palette tables must be defined under this line.
 3. Save and reload your prompt.
 
 > [!TIP]
@@ -26,8 +26,21 @@
 
 ## 💝 Thanks to
 
-- [bexli](https://github.com/joshpaulie)
-- [Stonks3141](https://github.com/Stonks3141)
+- [bexli](https://github.com/joshpaulie) ("Maintainer")
+- [uncenter](https://github.com/uncenter) (Catppuccin Whiskers Compatibility)
+- [Stonks3141](https://github.com/Stonks3141) (NixOS support)
+
+## Contributing
+Requires [Whiskers](https://github.com/catppuccin/whiskers) & [Just](https://github.com/casey/just) be installed
+
+1. Make changes to `templates/` file(s)
+2. Run `just build`
+3. Commit changes to branch, make PR
+
+Changes to prompt appearance require new [catwalk](https://github.com/catppuccin/catwalk) image.
+
+> [!TIP]
+> When making changes to the prompt, simply run `export STARSHIP_CONFIG="../../starship/starship.toml"` in your terminal for testing. Use an absolute path. This way, you don't have to worry about moving or replacing your personal starship.toml.
 
 &nbsp;
 
