@@ -24,6 +24,9 @@
 > [!TIP]
 > Check out this [example Starship configuration](starship.toml) for how to define and use colors from custom palettes.
 
+> [!NOTE]
+> Looking for inspiration or ready-made presets? Visit the [Show & Tell discussions](https://github.com/catppuccin/starship/discussions/categories/show-and-tell) to browse and share community-made themes!
+
 ## 💝 Thanks to
 
 - [bexli](https://github.com/joshpaulie) ("Maintainer")
